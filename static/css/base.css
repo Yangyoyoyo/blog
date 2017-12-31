@@ -1,0 +1,49 @@
+/* reset */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li, tt,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    text-align:left;
+    text-decoration:none;
+    border-bottom:none;
+    font-weight:normal;
+    font-style:normal;
+    border:none;
+    color: rgba(0,0,0,.8);
+}
+
+body {
+    font-family: Georgia,arial,sans-serif;
+    margin: 0;
+}
+h1, h2 {
+    margin: 0;
+}
+a {
+    color: #00ab6b;
+    text-decoration: none;
+}
+/* helpers */
+.clearfix:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.footer {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    font-size: 25px;
+}
+.copyright {
+    font-size: 12px;
+}
