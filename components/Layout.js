@@ -3,7 +3,7 @@ import Meta from './Meta'
 import Footer from './Footer'
 export default (props) => {
     return (
-        <div>
+        <div className='wapper'>
             <Header/>
             <Meta/>
             <div className="page">

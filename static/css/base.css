@@ -34,16 +34,18 @@ a {
     display:block;
     clear:both;
 }
-
+.wapper {
+    margin: 0 auto;
+    max-width: 980px;
+}
 .footer {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 40px;
-    font-size: 25px;
+    width: 100%;
+    margin: 3em auto;
+
+
 }
 .copyright {
+    color: #8c8c8c;
+    text-align: center;
     font-size: 12px;
 }
