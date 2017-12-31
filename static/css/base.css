@@ -28,7 +28,7 @@ a {
     color: #00ab6b;
     text-decoration: none;
 }
-/* helpers */
+
 .clearfix:after {
     content:"";
     display:block;
