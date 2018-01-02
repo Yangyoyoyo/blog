@@ -38,10 +38,16 @@ a {
     margin: 0 auto;
     max-width: 980px;
 }
+.header {
+    height: 80px;
+    line-height: 80px;
+}
+.header a {
+    padding: 0 20px;
+}
 .footer {
     width: 100%;
     margin: 3em auto;
-
 
 }
 .copyright {
