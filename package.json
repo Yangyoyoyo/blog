@@ -20,13 +20,6 @@
     "url": "https://github.com/Yangyoyoyo/blog/issues"
   },
   "homepage": "https://github.com/Yangyoyoyo/blog#readme",
-  "dependencies": {
-    "babel-plugin-module-resolver": "^3.0.0",
-    "babel-plugin-styled-components": "^1.4.0",
-    "next": "^4.2.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "styled-components": "^2.4.0"
-  },
+  "dependencies": {},
   "devDependencies": {}
 }
