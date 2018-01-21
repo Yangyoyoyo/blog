@@ -20,6 +20,13 @@
     "url": "https://github.com/Yangyoyoyo/blog/issues"
   },
   "homepage": "https://github.com/Yangyoyoyo/blog#readme",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^3.2.0",
+    "mysql2": "^1.5.1",
+    "sequelize": "^4.31.2"
+  },
+  "devDependencies": {
+    "mysql": "^2.15.0"
+  }
 }
