@@ -1,32 +1,26 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "start_server": "node ./server/app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Yangyoyoyo/blog.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Yangyoyoyo/blog/issues"
-  },
-  "homepage": "https://github.com/Yangyoyoyo/blog#readme",
+  "repository": "https://github.com/Yangyoyoyo/blog.git",
+  "author": "yangyoyoyo <sel_gao@hotmail.com>",
+  "license": "MIT",
   "dependencies": {
-    "babel-plugin-module-resolver": "^3.0.0",
-    "babel-plugin-styled-components": "^1.4.0",
-    "next": "^4.2.1",
+    "antd": "^3.1.4",
+    "ejs": "^2.5.7",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-logger": "^3.1.0",
+    "koa-mysql-session": "^0.0.2",
+    "koa-router": "^7.3.0",
+    "koa-session-minimal": "^3.0.4",
+    "koa-static": "^4.0.2",
+    "koa-views": "^6.1.3",
+    "mysql": "^2.15.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "styled-components": "^2.4.0"
-  },
-  "devDependencies": {}
+    "react-dom": "^16.2.0"
+  }
 }
