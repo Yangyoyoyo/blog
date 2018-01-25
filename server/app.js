@@ -20,30 +20,31 @@ const sessionMySQLconfig = {
     password: db.database.password,
     host: db.database.host,
     database: db.database.database,
-}
+};
 // 配置 session
 console.log(sessionMySQLconfig);
 
 app.use(session({
     key: 'SESSION_ID',
     store: new mySqlStore(sessionMySQLconfig)
-}))
+}));
 
 // 配置控制台日志
-app.use(koaLogger())
-app.use(bodyParser())
+app.use(koaLogger());
+//
+app.use(bodyParser());
 
 // 配置静态资源
 app.use(koaStatic(
     path.join(__dirname, './../static')
-))
+));
 // 配置模板
 app.use(views(path.join(__dirname, './views'), {
     extension: 'ejs'
-}))
+}));
 // 初始化路由
 app.use(routers.routes()).use(routers.allowedMethods());
 
 app.listen(db.port, () => {
     console.log(`server is start at ${db.port} port! `)
-})
+});
