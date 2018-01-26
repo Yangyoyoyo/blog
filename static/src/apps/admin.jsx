@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Layout, Menu, Breadcrumb, Icon} from 'antd';
 
-import LoginForm from './../components/Login';
+import LoginForm from './../components/LoginForm';
 
 const {SubMenu} = Menu;
 const {Header, Content, Sider} = Layout;

@@ -7,6 +7,7 @@ const outputPath = path.join(__dirname, './../output/dist/');
 
 module.exports = {
     entry: {
+        'home': './static/src/pages/home.js',
         'admin': './static/src/pages/admin.js',
         vender: ['react', 'react-dom', 'axios']
     },
