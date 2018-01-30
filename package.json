@@ -15,7 +15,6 @@
   "license": "MIT",
   "dependencies": {
     "antd": "^3.1.4",
-    "axios": "^0.17.1",
     "ejs": "^2.5.7",
     "koa": "^2.4.1",
     "koa-bodyparser": "^4.2.0",
